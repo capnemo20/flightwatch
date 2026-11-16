@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Plane, Bell } from "lucide-react";
 import FlightCard from "./components/FlightCard";
+import FlightForm from "./components/FlightForm";
 
 function App() {
   const departure = "London";
@@ -97,6 +98,7 @@ function App() {
           ></FlightCard>
           
         ))}
+        <FlightForm></FlightForm>
       </div>
     </main>
   );
